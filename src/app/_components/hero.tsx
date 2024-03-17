@@ -18,7 +18,7 @@ export const Hero = () => {
         height={500}
         className="min-h-[430px] object-cover w-full"
       />
-      <div className="p-8 bg-white absolute bottom-20 right-20 max-w-[350px]">
+      <div className="p-8 bg-white absolute bottom-20 right-20 max-w-[350px] hidden sm:block">
         <p className="tracking-widest font-light">CHEF SPECIALS</p>
         <Title>Easy & Healthy</Title>
         <p className="tracking-tighter font-normal mt-3 leading-7">
