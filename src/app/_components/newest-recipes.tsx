@@ -56,7 +56,7 @@ export const NewestRecipes = () => {
                 />
               </Link>
               <h3 className="uppercase font-bold mt-6">{label}</h3>
-              <PrimaryButton href={href} label="React more" className="mt-5" />
+              <PrimaryButton href={href} label="Read more" className="mt-5" />
             </motion.div>
           </MotionConfig>
         ))}
